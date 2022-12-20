@@ -1,0 +1,345 @@
+body,
+ul {
+  margin: 0px;
+  padding: 0px;
+  color: var(--colors-background);
+  background-color: var(--cor-white);
+}
+
+div header a {
+  text-decoration: none;
+}
+
+header a.logo {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #2e2727;
+  padding: 1rem;
+  border: 2px solid var(--cor-extra);
+}
+
+#header {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 0;
+  padding: 4rem 1rem;
+}
+
+#menu {
+  display: flex;
+  list-style: none;
+  gap: 0.5rem;
+}
+
+#menu li {
+  padding: 0.4rem 1rem;
+}
+
+#menu li.active {
+  background: var(--cor-extra);
+  color: var(--cor-white);
+}
+
+#menu li.active:hover {
+  background: var(--colors-background);
+  color: var(--cor-extra);
+}
+
+#menu a {
+  font-size: 1.6rem;
+  display: block;
+  padding: 0.5rem;
+  color: var(--colors-background);
+  font-weight: 300;
+}
+
+.menu-selected {
+  color: var(--cor-white);
+  padding: 10px;
+  border-radius: 5px;
+  color: var(--colors-background);
+}
+
+#btn-mobile {
+  display: block;
+}
+
+/* main */
+main {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+main section {
+  padding: 6rem 0;
+  background-color: var(--colors-principal);
+}
+
+main section .titulo {
+  text-align: start !important;
+}
+
+main section .titulo::after {
+  margin: 1rem 0;
+}
+
+main section p {
+  text-align: start;
+  margin: 2rem 0 4rem 0;
+}
+
+main section strong {
+  color: var(--cor-extra);
+  font-size: 1.8rem;
+}
+
+main section img {
+  max-width: 360px;
+  width: 100%;
+  flex: 1;
+  margin-left: 3rem;
+}
+
+main section a {
+  margin-right: 1rem;
+}
+
+/* Sobre */
+.sobre {
+  padding: 6rem 0 4rem 0;
+}
+
+.sobre section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 8rem 0 4rem;
+}
+
+.sobre section .sobre-div {
+  margin: 2rem;
+  gap: 2rem;
+}
+
+.sobre-div p {
+  max-width: 42rem;
+  margin-bottom: 1.4rem;
+}
+
+.sobre .sobre-strong {
+  font-size: 1.6rem;
+  color: var(--cor-extra);
+}
+.sobre img {
+  border: 1px solid var(--cor-extra);
+}
+
+.social ul {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  margin: 2rem 0 1rem;
+  background-color: var(--colors-background);
+}
+
+.social ul li a {
+  text-decoration: none;
+}
+.social ul li i {
+  color: var(--cor-extra);
+}
+/*Tecnologia*/
+.tecnologia .container {
+  padding: 6rem 0 0 0;
+}
+
+.tecnologia section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+  padding: 4rem 0 8rem 0;
+}
+
+.tecnologia section svg {
+  border-radius: 1rem;
+  height: 16rem;
+  width: 16rem;
+  padding: 1rem;
+  background-color: var(--cor-extra);
+  border: 1px solid var(--cor-extra);
+}
+
+.borda {
+  border-top: 1px solid var(--cor-extra);
+  padding-top: 4rem;
+}
+
+.btn-centro {
+  text-align: center;
+  margin: 2rem 0;
+  padding-bottom: 4rem;
+}
+/* projeto */
+.projeto .container {
+  padding: 6rem 0 8rem 0;
+}
+
+.projeto h2 {
+  color: var(--colors-background);
+  margin-bottom: 4rem;
+}
+
+.projeto p {
+  max-width: 60rem;
+  margin: 0 auto 4rem auto;
+  text-align: center;
+}
+
+.projeto .projeto-strong {
+  color: var(--cor-extra);
+}
+
+/* servicos */
+.servicos {
+  padding: 6rem 0 2rem 0;
+}
+
+.servicos h2 {
+  color: var(--cor-white);
+  padding-bottom: 4rem;
+}
+.servicos p {
+  color: var(--cor-extra);
+  text-align: center;
+  padding-bottom: 6rem;
+}
+
+.servicos-div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex: 1;
+  gap: 2rem;
+}
+
+.servicos-div div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+  flex: 1;
+  background: #2e2727;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.servicos-div div {
+  display: block;
+  border: 2px solid var(--cor-extra);
+}
+
+.servicos-div div h4 {
+  margin: 1rem 0 1rem 0;
+}
+
+.servicos-div div h4:after {
+  content: " ";
+  height: 3px;
+  width: 30px;
+  background-color: var(--cor-extra);
+  display: block;
+  margin: 1rem auto 2rem auto;
+}
+
+.servicos-div div svg {
+  background: var(--cor-extra);
+  padding: 2rem;
+}
+.servicos-div div .web {
+  margin-top: -1rem;
+}
+
+.servicos .btn-centro {
+  text-align: center;
+  margin: 2rem 0 1rem 0;
+  padding-top: 4rem;
+}
+
+/*footer*/
+.footer {
+  padding: 6rem 0 2rem 0;
+}
+.footer .container {
+  padding-bottom: 4rem;
+}
+
+.footer h2 {
+  color: var(--colors-background);
+}
+.footer p {
+  max-width: 60rem;
+  margin: 4rem auto 2rem auto;
+  text-align: center;
+}
+
+.footer section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 1rem auto;
+  gap: 1rem;
+}
+
+.footer section div {
+  flex: 1;
+  margin: 2rem 1rem;
+}
+
+.footer section .endereco {
+  width: 100%;
+  margin: 0 auto;
+  border: 2px solid var(--colors-background);
+}
+
+.footer .social ul {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 4rem;
+  margin: 2rem 0 1rem;
+  background-color: var(--cor-white);
+}
+
+.footer .social ul li a {
+  text-decoration: none;
+}
+
+.footer .social ul li i {
+  color: var(--colors-background);
+  background-color: var(--cor-extra);
+  padding: 0.8rem 1.2rem;
+  border-radius: 0.8rem;
+}
+
+.copy {
+  padding: 2rem 0;
+  color: var(--cor-white);
+  line-height: 2.2rem;
+  text-align: center;
+}
+
+.copy a {
+  text-decoration: none;
+  color: var(--cor-extra);
+}

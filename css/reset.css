@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  list-style: none;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: 'JetBrains Mono','Poppins', sans-serif, monospace;
+}
+.animate__animated.animate__bounce {
+  --animate-duration: 2s;
+}
+
+/* This changes all the animations globally */
+:root {
+  --animate-duration: 800ms;
+  --animate-delay: 0.9s;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+button {
+  cursor: pointer;
+}

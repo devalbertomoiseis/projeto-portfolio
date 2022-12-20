@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;300;400;500;700&family=Poppins:wght@100;300;400;500&display=swap");
+
+h1,
+h2,
+h3 {
+  font-family: "JetBrains Mono";
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: -1px;
+  color: var(--colors-principal);
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.background {
+  width: 100%;
+  border-bottom: 2px solid var(--cor-extra);
+}
+
+.background-dark {
+  width: 100%;
+  background-color: var(--colors-background);
+  color: var(--cor-white);
+}
+
+.titulo {
+  font-size: 4.4rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  color: var(--colors-background);
+  text-align: center;
+}
+
+.titulo::after {
+  content: " ";
+  height: 4px;
+  width: 60px;
+  background-color: var(--cor-extra);
+  display: block;
+  margin: 12px auto;
+}
+
+.sub-titulo {
+  font-size: 3.4rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  color: var(--cor-white);
+  text-align: center;
+}
+
+.sub-titulo::after {
+  content: " ";
+  height: 4px;
+  width: 60px;
+  background-color: var(--cor-extra);
+  display: block;
+  margin: 12px auto;
+}
+
+.btn-principal {
+  background-color: var(--cor-extra);
+  padding: 1rem 3rem;
+  color: var(--colors-background);
+  margin-top: 1rem;
+  border-radius: 0.8rem;
+}

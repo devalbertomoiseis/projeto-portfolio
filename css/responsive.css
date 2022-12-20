@@ -1,0 +1,239 @@
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 900px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main section {
+    flex: auto;
+    text-align: center;
+    padding: 6rem 0 2rem 0;
+  }
+  main section .titulo {
+    font-size: 4rem;
+    text-align: center !important;
+  }
+
+  main section .titulo::after {
+    margin: 1.2rem auto;
+  }
+
+  main section p {
+    text-align: center;
+  }
+  main section img {
+    display: none;
+  }
+  /**/
+
+  .sobre {
+    padding: 6rem 0 2rem 0;
+  }
+
+  .sobre section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 4rem 0 6rem;
+  }
+
+  .sobre p {
+    max-width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .sobre a .btn-principal {
+    padding-top: 2rem;
+  }
+
+  .sobre section img {
+    display: none;
+  }
+
+  .tecnologia section {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    padding: 1rem 0;
+    margin: 1rem;
+  }
+
+  .tecnologia section svg {
+    height: 16rem;
+    width: 16rem;
+  }
+
+  .nav-tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    gap: 2rem;
+    padding: 0.6rem;
+  }
+}
+
+@media (max-width: 780px) {
+  .tecnologia section {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 1rem 0;
+    margin: 1rem;
+  }
+
+  .tecnologia section svg {
+    height: 14rem;
+    width: 14rem;
+    padding: 2rem;
+  }
+
+  .nav-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0.6rem;
+  }
+  .tab-content {
+    border: 2px solid var(--colors-background);
+    border-radius: 5px;
+    max-width: 94%;
+    margin: 0 auto;
+    padding: 1.5rem;
+  }
+
+  .footer section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 2rem auto;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  #menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 110px;
+    right: 0px;
+    background: var(--colors-background);
+    transition: 0.6s;
+    z-index: 1000;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+    text-align: center;
+  }
+
+  #nav.active #menu {
+    height: calc(80vh - 70px);
+    visibility: visible;
+    overflow-y: auto;
+  }
+  #menu li.active {
+    display: none;
+  }
+  #menu a {
+    padding: 1rem 0;
+    margin: 0 1rem;
+    color: var(--cor-white);
+    border-bottom: 1px solid rgb(204, 204, 204);
+  }
+  #menu a:hover {
+    color: var(--cor-extra);
+  }
+
+  #btn-mobile {
+    display: flex;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: 0.5rem;
+  }
+  #hamburguer {
+    display: block;
+    border-top: 2px solid;
+    width: 20px;
+  }
+  #hamburguer::after,
+  #hamburguer::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: 0.3s;
+    position: relative;
+  }
+  #nav.active #hamburguer {
+    border-top-color: transparent;
+  }
+  #nav.active #hamburguer::before {
+    transform: rotate(135deg);
+  }
+  #nav.active #hamburguer::after {
+    transform: rotate(-135deg);
+    top: -7px;
+  }
+  footer .footer-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1rem auto;
+  }
+  footer .footer-flex ul {
+    margin-top: 2rem;
+  }
+  footer .footer-flex iframe {
+    width: 32rem;
+  }
+
+  .tecnologia section {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem 0;
+    margin: 1rem;
+  }
+
+  .tecnologia section svg {
+    height: 14rem;
+    width: 14rem;
+    padding: 2rem;
+  }
+  .sobre section {
+    padding: 2rem 0 2rem 0;
+  }
+  .sobre .social ul {
+    gap: 2rem;
+    margin: 2rem 0 4rem 0;
+  }
+}
+
+@media (max-width: 520px) {
+  .tecnologia section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 0;
+    margin: 1rem;
+  }
+
+  .tecnologia section svg {
+    height: 18rem;
+    width: 18rem;
+    padding: 2rem;
+  }
+}
