@@ -236,4 +236,15 @@
     width: 18rem;
     padding: 2rem;
   }
+
+  
 }
+
+@media (max-width: 420px) {
+
+
+  .projeto-div div a{
+    font-size: 1.4rem;
+  }
+}
+

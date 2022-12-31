@@ -281,15 +281,16 @@ main section a {
   padding: 6rem 0 2rem 0;
 }
 .footer .container {
-  padding-bottom: 4rem;
+  padding-bottom: 1rem;
 }
 
 .footer h2 {
   color: var(--colors-background);
 }
+
 .footer p {
   max-width: 60rem;
-  margin: 4rem auto 2rem auto;
+  margin: 4rem auto 1rem auto;
   text-align: center;
 }
 
@@ -304,12 +305,6 @@ main section a {
 .footer section div {
   flex: 1;
   margin: 2rem 1rem;
-}
-
-.footer section .endereco {
-  width: 100%;
-  margin: 0 auto;
-  border: 2px solid var(--colors-background);
 }
 
 .footer .social ul {
@@ -333,7 +328,7 @@ main section a {
 }
 
 .copy {
-  padding: 2rem 0;
+  padding: 3rem 0;
   color: var(--cor-white);
   line-height: 2.2rem;
   text-align: center;
