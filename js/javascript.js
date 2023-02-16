@@ -51,7 +51,7 @@ typewriterEffect(document.querySelector("h1"), 900);
 // nessa linha chamamos o id que foi definido na tag <strong> no doc html
 const textDisplay = document.getElementById("efeito");
 // nessa linha são definidas as tres frases que serão animadas
-const phrases = ["Desenvolvedor WEB", "Programador FrontEnd"];
+const phrases = ["Desenvolvedor WEB", "Desenvolvedor FrontEnd", "Desenvolvedor FrontEnd & Freelancer"];
 let i = 0;
 let j = 0;
 let currentPhrase = [];
